@@ -1,0 +1,78 @@
+2025-05-09 14:36:33,707 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-09 14:36:33,721 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-09 14:36:35,860 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-09 14:36:36,009 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-09 14:36:36,009 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-09 14:36:36,012 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-09 14:55:10,516 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-09 14:55:10,529 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-09 14:55:12,749 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-09 14:55:12,890 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-09 14:55:12,890 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-09 14:55:12,894 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-09 14:55:12,965 - ERROR - 保存数据失败: Cannot save file into a non-existent directory: '../dataset/processed_df'
+2025-05-09 14:56:14,198 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-09 14:56:14,209 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-09 14:56:16,426 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-09 14:56:16,579 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-09 14:56:16,579 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-09 14:56:16,583 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-09 14:56:16,637 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-09 14:56:16,640 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-09 14:56:16,724 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-09 14:56:16,726 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-09 14:56:16,728 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
