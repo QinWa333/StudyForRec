@@ -1,6 +1,10 @@
 小青蛙学习使用2025.05.08
 #### 使用到的库版本
-tensorflow 2.15
-numpy 1.26.3
-pandas 2.2.2
-python 3.10
+tensorflow 2.15\
+numpy 1.26.3\
+pandas 2.2.2\
+python 3.10\
+数据集使用movielens 1m数据集。包含6040用户对3952部电影的1000209交互记录。\
+先使用这个简单数据搭建demo,后续需要改进则使用movielens其他数据集。
+
+
