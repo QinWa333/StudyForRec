@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f192c4b7-b33a-4031-a0c9-5419683852d5" name="更改" comment="" />
+    <list default="true" id="f192c4b7-b33a-4031-a0c9-5419683852d5" name="更改" comment="20250527">
+      <change afterPath="$PROJECT_DIR$/QingWaRank/dataset/ml-1m/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QingWaRank/dataset/ml-1m/movies.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QingWaRank/dataset/ml-1m/ratings.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QingWaRank/dataset/ml-1m/users.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QingWaRank/log/feature_engineer.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/StudyForRec.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/StudyForRec.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QingWaStudy/code/001.read_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/QingWaStudy/code/001.read_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QingWaStudy/code/005Wide&amp;Deep_rank.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QingWaStudy/code/test000.py" beforeDir="false" afterPath="$PROJECT_DIR$/QingWaStudy/code/test000.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QingWaStudy/dataset/processed_df/movies.parquet" beforeDir="false" afterPath="$PROJECT_DIR$/QingWaStudy/dataset/processed_df/movies.parquet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QingWaStudy/log/001read_dada.log" beforeDir="false" afterPath="$PROJECT_DIR$/QingWaStudy/log/001read_dada.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QingWaStudy/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/QingWaStudy/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/paper/1703.04247v1.pdf" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2wqBKiF6wzOLRuKsLjQjEyrUF5a" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -21,12 +53,28 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.001.read_data.executor": "Run",
+    "Python.111.feature_engineer.executor": "Run",
+    "Python.Wide&Deep_1.executor": "Run",
+    "Python.Wide&Deep_data.executor": "Run",
+    "Python.Wide&Deep_model.executor": "Run",
+    "Python.Wide&Deep_train.executor": "Run",
+    "Python.data_process.executor": "Run",
+    "Python.data_process_and_sample_product.executor": "Run",
+    "Python.feature_engineer.executor": "Run",
+    "Python.rename_columns.executor": "Run",
+    "Python.test000.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/a1021500670/zzp/studyspace/study_rec/StudyForRec"
+    "git-widget-placeholder": "xiaoqingwa0527",
+    "last_opened_file_path": "/Users/a1021500670/zzp/studyspace/study_rec/StudyForRec/QingWaRank/data/ml-1m"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/QingWaRank/data/ml-1m" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -42,6 +90,46 @@
       <option name="presentableId" value="Default" />
       <updated>1746759161731</updated>
     </task>
+    <task id="LOCAL-00001" summary="20250527">
+      <option name="closed" value="true" />
+      <created>1748335363604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748335363604</updated>
+    </task>
+    <task id="LOCAL-00002" summary="20250527">
+      <option name="closed" value="true" />
+      <created>1748335572661</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748335572661</updated>
+    </task>
+    <task id="LOCAL-00003" summary="20250527">
+      <option name="closed" value="true" />
+      <created>1748337224103</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1748337224103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20250527" />
+    <option name="LAST_COMMIT_MESSAGE" value="20250527" />
   </component>
 </project>

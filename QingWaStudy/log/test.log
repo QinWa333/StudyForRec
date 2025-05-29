@@ -5,3 +5,19 @@
 重复观看次数最多的用户:
 2025-05-09 16:00:02,949 - INFO - 
 重复观看次数最多的电影:
+2025-05-28 13:32:19,750 - INFO - 共有 0 条用户重复观看记录
+2025-05-28 13:32:19,750 - INFO - 0 个用户(0.00%)有重复观看行为
+2025-05-28 13:32:19,750 - INFO - 0 部电影(0.00%)被重复观看
+2025-05-28 13:32:19,752 - INFO - 
+重复观看次数最多的用户:
+2025-05-28 13:32:19,752 - INFO - 
+重复观看次数最多的电影:
+2025-05-28 13:32:19,758 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 13:32:19,762 - INFO - 电影数据集shape：
+(3883, 3)

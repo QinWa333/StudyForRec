@@ -57,11 +57,36 @@ logger.info("评分数据前几行：\n%s", ratings_df.head())
 
 
 # 数据处理
-## 1.将电影名称后面的年份 单独作为1列
+## 1.将电影名称后面的年份 单独作为1列，并确保是整数类型
 movies_df['create_year'] = movies_df['title'].str.extract(r'\((\d{4})\)$')
 movies_df['title'] = movies_df['title'].str.replace(r' \(\d{4}\)$', '', regex=True)
-# print(movies_df.head())
-## 2.用户性别用01进行编码
+
+# 确保create_year是整数类型
+movies_df['create_year'] = movies_df['create_year'].astype(int)
+
+## 2.处理电影类型(genres) - 使用multi-hot编码
+# 获取所有唯一的电影类型
+all_genres = set()
+# 获取所有电影类型
+for genres in movies_df['genres'].str.split('|'):
+    if isinstance(genres, list):  # 确保genres是列表
+        all_genres.update(genres)
+all_genres = sorted(list(all_genres))  # 排序以保持顺序一致
+
+logger.info(f"发现的所有电影类型: {all_genres}")
+
+# 为每个类型创建一列
+for genre in all_genres:
+    movies_df[f'genre_{genre}'] = movies_df['genres'].apply(lambda x: 1 if genre in x.split('|') else 0)
+
+# 删除原始的genres列
+movies_df = movies_df.drop('genres', axis=1)
+
+logger.info(f"处理后的电影类型数量: {len(all_genres)}")
+logger.info(f"电影类型列表: {all_genres}")
+logger.info("处理后的电影数据示例：\n%s", movies_df.head())
+
+## 3.用户性别用01进行编码
 user_df['gender'] = user_df['gender'].map({'F':0, 'M':1})
 # print(user_df.head())
 

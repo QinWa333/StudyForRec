@@ -68,3 +68,12 @@ for movie_id, count in top_movies.items():
     movie_title = movies_df.loc[movies_df['movie_id'] == movie_id, 'title'].iloc[0]
     logger.info(f"电影 {movie_id} ({movie_title}): {count} 次被重复观看")
 
+mnames = ['movie_id', 'title', 'genres']
+movies_df = pd.read_csv('../dataset/ml-1m/movies.dat',
+                        sep='::',
+                        header=None,
+                        names=mnames,
+                        engine='python',
+                        encoding='ISO-8859-1')
+logger.info("电影数据前几行：\n%s", movies_df.head())
+logger.info("电影数据集shape：\n%s",movies_df.shape)

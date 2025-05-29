@@ -1,0 +1,607 @@
+2025-05-29 13:34:12,939 - INFO - 样本数量:1000209
+2025-05-29 13:34:12,939 - INFO - ('正样本数量:%d', 836478)
+2025-05-29 13:34:12,939 - INFO - 分样本数量:163731
+2025-05-29 13:34:35,835 - INFO - 样本数量:1000209
+2025-05-29 13:34:35,835 - INFO - ('正样本数量:%d', 575281)
+2025-05-29 13:34:35,836 - INFO - 负样本数量:424928
+2025-05-29 13:34:48,773 - INFO - 样本数量:1000209
+2025-05-29 13:34:48,773 - INFO - 正样本数量:575281
+2025-05-29 13:34:48,774 - INFO - 负样本数量:424928
+2025-05-29 13:45:30,456 - INFO - 样本数量:1000209
+2025-05-29 13:45:30,457 - INFO - 正样本数量:575281
+2025-05-29 13:45:30,457 - INFO - 负样本数量:424928
+2025-05-29 13:45:30,526 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 13:45:30,773 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 13:50:43,968 - INFO - 样本数量:1000209
+2025-05-29 13:50:43,969 - INFO - 正样本数量:575281
+2025-05-29 13:50:43,969 - INFO - 负样本数量:424928
+2025-05-29 13:50:44,038 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 13:50:44,294 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 13:51:51,447 - INFO - 样本数量:1000209
+2025-05-29 13:51:51,447 - INFO - 正样本数量:575281
+2025-05-29 13:51:51,448 - INFO - 负样本数量:424928
+2025-05-29 13:51:51,524 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 13:51:51,788 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 13:51:51,821 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch',
+       'avg_watch_interval'],
+      dtype='object')
+2025-05-29 13:51:51,878 - INFO - 最终特征列：
+['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'title', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', "genre_Children's", 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 13:51:51,878 - INFO - 特征统计信息：
+2025-05-29 13:51:51,906 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 13:51:51,928 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 13:51:51,947 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 13:51:52,361 - INFO - 数据已保存至 ../dataset/processed_df/processed_samples.parquet
+2025-05-29 13:52:38,156 - INFO - 样本数量:1000209
+2025-05-29 13:52:38,156 - INFO - 正样本数量:575281
+2025-05-29 13:52:38,157 - INFO - 负样本数量:424928
+2025-05-29 13:52:38,226 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 13:52:38,466 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 13:52:38,498 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch',
+       'avg_watch_interval'],
+      dtype='object')
+2025-05-29 13:52:38,547 - INFO - 最终特征列：
+['user_id', 'movie_id', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'title', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', "genre_Children's", 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 13:52:38,547 - INFO - 特征统计信息：
+2025-05-29 13:52:38,574 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 13:52:38,594 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 13:52:38,611 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 13:52:39,025 - INFO - 数据已保存至 ../dataset/processed_df/processed_samples.parquet
+2025-05-29 14:01:35,895 - INFO - 样本数量:1000209
+2025-05-29 14:01:35,896 - INFO - 正样本数量:575281
+2025-05-29 14:01:35,896 - INFO - 负样本数量:424928
+2025-05-29 14:01:35,963 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 14:01:36,227 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 14:01:36,259 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch',
+       'avg_watch_interval'],
+      dtype='object')
+2025-05-29 14:01:36,318 - INFO - 最终特征列：
+['user_id', 'movie_id', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'title', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', "genre_Children's", 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 14:01:36,318 - INFO - 特征统计信息：
+2025-05-29 14:01:36,344 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 14:01:36,364 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 14:01:36,381 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 14:01:36,785 - INFO - 数据已保存至 ../dataset/processed_df/processed_samples.parquet
+2025-05-29 14:06:29,384 - INFO - 样本数量:1000209
+2025-05-29 14:06:29,385 - INFO - 正样本数量:575281
+2025-05-29 14:06:29,385 - INFO - 负样本数量:424928
+2025-05-29 14:06:29,460 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 14:06:29,703 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 14:06:29,735 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch',
+       'avg_watch_interval'],
+      dtype='object')
+2025-05-29 14:06:29,786 - INFO - 最终特征列：
+['user_id', 'movie_id', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'title', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', "genre_Children's", 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 14:06:29,788 - INFO - 特征统计信息：
+2025-05-29 14:06:29,814 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 14:06:29,834 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 14:06:29,852 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 14:06:30,184 - INFO - 数据集划分结果：
+2025-05-29 14:06:30,184 - INFO - 训练集大小：800167 (80.00%)
+2025-05-29 14:06:30,184 - INFO - 验证集大小：100021 (10.00%)
+2025-05-29 14:06:30,184 - INFO - 测试集大小：100021 (10.00%)
+2025-05-29 14:06:30,188 - INFO - 训练集标签分布：
+label
+1    0.575161
+0    0.424839
+Name: proportion, dtype: float64
+2025-05-29 14:06:30,189 - INFO - 验证集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:06:30,189 - INFO - 测试集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:06:30,641 - INFO - 数据集已保存：
+2025-05-29 14:06:30,641 - INFO - - 训练集：../dataset/processed_df/train.parquet
+2025-05-29 14:06:30,641 - INFO - - 验证集：../dataset/processed_df/val.parquet
+2025-05-29 14:06:30,641 - INFO - - 测试集：../dataset/processed_df/test.parquet
+2025-05-29 14:08:06,485 - INFO - 样本数量:1000209
+2025-05-29 14:08:06,486 - INFO - 正样本数量:575281
+2025-05-29 14:08:06,486 - INFO - 负样本数量:424928
+2025-05-29 14:08:06,560 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 14:08:06,807 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 14:08:06,838 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch',
+       'avg_watch_interval'],
+      dtype='object')
+2025-05-29 14:08:06,887 - INFO - 最终特征列：
+['user_id', 'movie_id', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'title', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', "genre_Children's", 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 14:08:06,888 - INFO - 特征统计信息：
+2025-05-29 14:08:06,915 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 14:08:06,936 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 14:08:06,953 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 14:08:07,350 - INFO - 数据已保存至 ../dataset/processed_df/processed_samples.parquet
+2025-05-29 14:08:07,676 - INFO - 数据集划分结果：
+2025-05-29 14:08:07,676 - INFO - 训练集大小：800167 (80.00%)
+2025-05-29 14:08:07,676 - INFO - 验证集大小：100021 (10.00%)
+2025-05-29 14:08:07,676 - INFO - 测试集大小：100021 (10.00%)
+2025-05-29 14:08:07,680 - INFO - 训练集标签分布：
+label
+1    0.575161
+0    0.424839
+Name: proportion, dtype: float64
+2025-05-29 14:08:07,681 - INFO - 验证集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:08:07,682 - INFO - 测试集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:08:08,139 - INFO - 数据集已保存：
+2025-05-29 14:08:08,139 - INFO - - 训练集：../dataset/processed_df/train.parquet
+2025-05-29 14:08:08,139 - INFO - - 验证集：../dataset/processed_df/val.parquet
+2025-05-29 14:08:08,139 - INFO - - 测试集：../dataset/processed_df/test.parquet
+2025-05-29 14:37:51,984 - INFO - 样本数量:1000209
+2025-05-29 14:37:51,984 - INFO - 正样本数量:575281
+2025-05-29 14:37:51,985 - INFO - 负样本数量:424928
+2025-05-29 14:37:52,055 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age'],
+      dtype='object')
+2025-05-29 14:37:52,298 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 14:37:52,329 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children's',
+       'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama',
+       'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical',
+       'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller',
+       'genre_War', 'genre_Western', 'label', 'watch_time', 'watch_year',
+       'movie_age', 'last_watch_timestamp', 'time_since_last_watch',
+       'avg_watch_interval'],
+      dtype='object')
+2025-05-29 14:37:52,373 - INFO - 最终特征列：
+['user_id', 'movie_id', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', "genre_Children's", 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_Film-Noir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_Sci-Fi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 14:37:52,375 - INFO - 特征统计信息：
+2025-05-29 14:37:52,402 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 14:37:52,422 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 14:37:52,440 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 14:37:52,776 - INFO - 数据已保存至 ../dataset/processed_df/processed_samples.parquet
+2025-05-29 14:37:53,167 - INFO - 数据集划分结果：
+2025-05-29 14:37:53,167 - INFO - 训练集大小：800167 (80.00%)
+2025-05-29 14:37:53,167 - INFO - 验证集大小：100021 (10.00%)
+2025-05-29 14:37:53,167 - INFO - 测试集大小：100021 (10.00%)
+2025-05-29 14:37:53,172 - INFO - 训练集标签分布：
+label
+1    0.575161
+0    0.424839
+Name: proportion, dtype: float64
+2025-05-29 14:37:53,173 - INFO - 验证集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:37:53,173 - INFO - 测试集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:37:53,174 - INFO - 数据集用户统计：
+2025-05-29 14:37:53,178 - INFO - 训练集用户数：6040
+2025-05-29 14:37:53,178 - INFO - 验证集用户数：5966
+2025-05-29 14:37:53,181 - INFO - 测试集用户数：5960
+2025-05-29 14:37:53,186 - INFO - 总用户数：6040
+2025-05-29 14:37:53,189 - INFO - 用户ID范围：1 - 6040
+2025-05-29 14:37:53,594 - INFO - 数据集已保存：
+2025-05-29 14:37:53,594 - INFO - - 训练集：../dataset/processed_df/train.parquet
+2025-05-29 14:37:53,594 - INFO - - 验证集：../dataset/processed_df/val.parquet
+2025-05-29 14:37:53,594 - INFO - - 测试集：../dataset/processed_df/test.parquet
+2025-05-29 14:43:06,724 - INFO - 样本数量:1000209
+2025-05-29 14:43:06,725 - INFO - 正样本数量:575281
+2025-05-29 14:43:06,725 - INFO - 负样本数量:424928
+2025-05-29 14:43:06,792 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children', 'genre_Comedy',
+       'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy',
+       'genre_FilmNoir', 'genre_Horror', 'genre_Musical', 'genre_Mystery',
+       'genre_Romance', 'genre_SciFi', 'genre_Thriller', 'genre_War',
+       'genre_Western', 'label', 'watch_time', 'watch_year', 'movie_age'],
+      dtype='object')
+2025-05-29 14:43:07,080 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children', 'genre_Comedy',
+       'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy',
+       'genre_FilmNoir', 'genre_Horror', 'genre_Musical', 'genre_Mystery',
+       'genre_Romance', 'genre_SciFi', 'genre_Thriller', 'genre_War',
+       'genre_Western', 'label', 'watch_time', 'watch_year', 'movie_age',
+       'last_watch_timestamp', 'time_since_last_watch'],
+      dtype='object')
+2025-05-29 14:43:07,107 - INFO - Index(['user_id', 'movie_id', 'score', 'timestamp', 'gender', 'age',
+       'occupation', 'zip', 'title', 'create_year', 'genre_Action',
+       'genre_Adventure', 'genre_Animation', 'genre_Children', 'genre_Comedy',
+       'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy',
+       'genre_FilmNoir', 'genre_Horror', 'genre_Musical', 'genre_Mystery',
+       'genre_Romance', 'genre_SciFi', 'genre_Thriller', 'genre_War',
+       'genre_Western', 'label', 'watch_time', 'watch_year', 'movie_age',
+       'last_watch_timestamp', 'time_since_last_watch', 'avg_watch_interval'],
+      dtype='object')
+2025-05-29 14:43:07,150 - INFO - 最终特征列：
+['user_id', 'movie_id', 'timestamp', 'gender', 'age', 'occupation', 'zip', 'create_year', 'genre_Action', 'genre_Adventure', 'genre_Animation', 'genre_Children', 'genre_Comedy', 'genre_Crime', 'genre_Documentary', 'genre_Drama', 'genre_Fantasy', 'genre_FilmNoir', 'genre_Horror', 'genre_Musical', 'genre_Mystery', 'genre_Romance', 'genre_SciFi', 'genre_Thriller', 'genre_War', 'genre_Western', 'label', 'movie_age', 'time_since_last_watch', 'avg_watch_interval']
+2025-05-29 14:43:07,150 - INFO - 特征统计信息：
+2025-05-29 14:43:07,178 - INFO - time_since_last_watch 统计：
+count    1.000209e+06
+mean     4.956461e+04
+std      9.496645e+05
+min     -1.000000e+00
+25%      0.000000e+00
+50%      0.000000e+00
+75%      3.000000e+01
+max      8.892327e+07
+Name: time_since_last_watch, dtype: float64
+2025-05-29 14:43:07,198 - INFO - avg_watch_interval 统计：
+count    1.000209e+06
+mean     4.988032e+04
+std      1.107900e+05
+min      3.533333e+00
+25%      2.334211e+01
+50%      1.722707e+03
+75%      6.136396e+04
+max      3.676610e+06
+Name: avg_watch_interval, dtype: float64
+2025-05-29 14:43:07,215 - INFO - movie_age 统计：
+count    1.000209e+06
+mean     1.342776e+01
+std      1.434770e+01
+min      0.000000e+00
+25%      3.000000e+00
+50%      8.000000e+00
+75%      1.800000e+01
+max      8.200000e+01
+Name: movie_age, dtype: float64
+2025-05-29 14:43:07,559 - INFO - 数据已保存至 ../dataset/processed_df/processed_samples.parquet
+2025-05-29 14:43:07,945 - INFO - 数据集划分结果：
+2025-05-29 14:43:07,945 - INFO - 训练集大小：800167 (80.00%)
+2025-05-29 14:43:07,945 - INFO - 验证集大小：100021 (10.00%)
+2025-05-29 14:43:07,945 - INFO - 测试集大小：100021 (10.00%)
+2025-05-29 14:43:07,949 - INFO - 训练集标签分布：
+label
+1    0.575161
+0    0.424839
+Name: proportion, dtype: float64
+2025-05-29 14:43:07,950 - INFO - 验证集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:43:07,951 - INFO - 测试集标签分布：
+label
+1    0.575159
+0    0.424841
+Name: proportion, dtype: float64
+2025-05-29 14:43:07,951 - INFO - 数据集用户统计：
+2025-05-29 14:43:07,955 - INFO - 训练集用户数：6040
+2025-05-29 14:43:07,956 - INFO - 验证集用户数：5966
+2025-05-29 14:43:07,957 - INFO - 测试集用户数：5960
+2025-05-29 14:43:07,963 - INFO - 总用户数：6040
+2025-05-29 14:43:07,964 - INFO - 用户ID范围：1 - 6040
+2025-05-29 14:43:08,368 - INFO - 数据集已保存：
+2025-05-29 14:43:08,368 - INFO - - 训练集：../dataset/processed_df/train.parquet
+2025-05-29 14:43:08,368 - INFO - - 验证集：../dataset/processed_df/val.parquet
+2025-05-29 14:43:08,368 - INFO - - 测试集：../dataset/processed_df/test.parquet
