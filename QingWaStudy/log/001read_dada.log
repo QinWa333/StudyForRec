@@ -76,3 +76,522 @@
 2025-05-09 14:56:16,724 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
 2025-05-09 14:56:16,726 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
 2025-05-09 14:56:16,728 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-27 17:44:48,188 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-27 17:44:48,200 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-27 17:44:50,729 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-27 17:44:50,754 - INFO - 处理后的电影类型数量: 18
+2025-05-27 17:44:50,754 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-27 17:44:50,754 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ... genre_War  genre_Western
+0         1                    Toy Story  ...         0              0
+1         2                      Jumanji  ...         0              0
+2         3             Grumpier Old Men  ...         0              0
+3         4            Waiting to Exhale  ...         0              0
+4         5  Father of the Bride Part II  ...         0              0
+
+[5 rows x 21 columns]
+2025-05-27 17:44:50,967 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-27 17:44:50,967 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-27 17:44:50,975 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-27 17:44:51,089 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-27 17:44:51,098 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-27 17:44:51,225 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-27 17:44:51,228 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-27 17:44:51,231 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:24:17,962 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-28 17:24:18,003 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 17:24:20,259 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-28 17:24:20,269 - INFO - create_year已转换为整数类型
+2025-05-28 17:24:20,269 - INFO - create_year范围: 1919 - 2000
+2025-05-28 17:24:20,269 - INFO - 
+create_year特征统计:
+2025-05-28 17:24:20,269 - INFO - ==================================================
+2025-05-28 17:24:20,269 - INFO - 数据类型: int64
+2025-05-28 17:24:20,269 - INFO - 空值数量: 0
+2025-05-28 17:24:20,269 - INFO - 非空值数量: 3883
+2025-05-28 17:24:20,269 - INFO - 最小值: 1919
+2025-05-28 17:24:20,269 - INFO - 最大值: 2000
+2025-05-28 17:24:20,269 - INFO - 平均值: 1986.07
+2025-05-28 17:24:20,269 - INFO - 中位数: 1994.0
+2025-05-28 17:24:20,284 - INFO - 处理后的电影类型数量: 18
+2025-05-28 17:24:20,284 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 17:24:20,284 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ...  genre_War  genre_Western
+0         1                    Toy Story  ...          0              0
+1         2                      Jumanji  ...          0              0
+2         3             Grumpier Old Men  ...          0              0
+3         4            Waiting to Exhale  ...          0              0
+4         5  Father of the Bride Part II  ...          0              0
+
+[5 rows x 21 columns]
+2025-05-28 17:24:20,427 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-28 17:24:20,428 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-28 17:24:20,431 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-28 17:24:20,482 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:24:20,485 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:24:20,566 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:24:20,568 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:24:20,571 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:25:15,034 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-28 17:25:15,045 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 17:25:17,263 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-28 17:25:17,286 - INFO - 处理后的电影类型数量: 18
+2025-05-28 17:25:17,286 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 17:25:17,286 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ...  genre_War  genre_Western
+0         1                    Toy Story  ...          0              0
+1         2                      Jumanji  ...          0              0
+2         3             Grumpier Old Men  ...          0              0
+3         4            Waiting to Exhale  ...          0              0
+4         5  Father of the Bride Part II  ...          0              0
+
+[5 rows x 21 columns]
+2025-05-28 17:25:17,431 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-28 17:25:17,431 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-28 17:25:17,435 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-28 17:25:17,486 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:25:17,491 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:25:17,571 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:25:17,573 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 17:25:17,575 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 18:25:52,183 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-28 18:25:52,195 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 18:25:54,430 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-28 18:25:54,454 - INFO - 处理后的电影类型数量: 18
+2025-05-28 18:25:54,454 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 18:25:54,454 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ...  genre_War  genre_Western
+0         1                    Toy Story  ...          0              0
+1         2                      Jumanji  ...          0              0
+2         3             Grumpier Old Men  ...          0              0
+3         4            Waiting to Exhale  ...          0              0
+4         5  Father of the Bride Part II  ...          0              0
+
+[5 rows x 21 columns]
+2025-05-28 18:25:54,596 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-28 18:25:54,596 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-28 18:25:54,600 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-28 18:25:54,656 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 18:25:54,661 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 18:25:54,741 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 18:25:54,742 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 18:25:54,745 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:50:11,785 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-28 21:50:11,796 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 21:50:14,062 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-28 21:50:14,084 - INFO - 
+genre特征空值检查:
+2025-05-28 21:50:14,084 - INFO - ==================================================
+2025-05-28 21:50:14,084 - INFO - genre_Action 列没有空值
+2025-05-28 21:50:14,084 - INFO - genre_Action 统计:
+2025-05-28 21:50:14,084 - INFO -   非零值数量: 503
+2025-05-28 21:50:14,084 - INFO -   零值数量: 3380
+2025-05-28 21:50:14,084 - INFO - genre_Adventure 列没有空值
+2025-05-28 21:50:14,084 - INFO - genre_Adventure 统计:
+2025-05-28 21:50:14,084 - INFO -   非零值数量: 283
+2025-05-28 21:50:14,084 - INFO -   零值数量: 3600
+2025-05-28 21:50:14,084 - INFO - genre_Animation 列没有空值
+2025-05-28 21:50:14,084 - INFO - genre_Animation 统计:
+2025-05-28 21:50:14,084 - INFO -   非零值数量: 105
+2025-05-28 21:50:14,084 - INFO -   零值数量: 3778
+2025-05-28 21:50:14,084 - INFO - genre_Children's 列没有空值
+2025-05-28 21:50:14,084 - INFO - genre_Children's 统计:
+2025-05-28 21:50:14,084 - INFO -   非零值数量: 251
+2025-05-28 21:50:14,084 - INFO -   零值数量: 3632
+2025-05-28 21:50:14,084 - INFO - genre_Comedy 列没有空值
+2025-05-28 21:50:14,084 - INFO - genre_Comedy 统计:
+2025-05-28 21:50:14,084 - INFO -   非零值数量: 1200
+2025-05-28 21:50:14,085 - INFO -   零值数量: 2683
+2025-05-28 21:50:14,085 - INFO - genre_Crime 列没有空值
+2025-05-28 21:50:14,085 - INFO - genre_Crime 统计:
+2025-05-28 21:50:14,085 - INFO -   非零值数量: 211
+2025-05-28 21:50:14,085 - INFO -   零值数量: 3672
+2025-05-28 21:50:14,085 - INFO - genre_Documentary 列没有空值
+2025-05-28 21:50:14,085 - INFO - genre_Documentary 统计:
+2025-05-28 21:50:14,085 - INFO -   非零值数量: 127
+2025-05-28 21:50:14,085 - INFO -   零值数量: 3756
+2025-05-28 21:50:14,085 - INFO - genre_Drama 列没有空值
+2025-05-28 21:50:14,085 - INFO - genre_Drama 统计:
+2025-05-28 21:50:14,085 - INFO -   非零值数量: 1603
+2025-05-28 21:50:14,085 - INFO -   零值数量: 2280
+2025-05-28 21:50:14,085 - INFO - genre_Fantasy 列没有空值
+2025-05-28 21:50:14,085 - INFO - genre_Fantasy 统计:
+2025-05-28 21:50:14,085 - INFO -   非零值数量: 68
+2025-05-28 21:50:14,085 - INFO -   零值数量: 3815
+2025-05-28 21:50:14,085 - INFO - genre_Film-Noir 列没有空值
+2025-05-28 21:50:14,085 - INFO - genre_Film-Noir 统计:
+2025-05-28 21:50:14,085 - INFO -   非零值数量: 44
+2025-05-28 21:50:14,085 - INFO -   零值数量: 3839
+2025-05-28 21:50:14,085 - INFO - genre_Horror 列没有空值
+2025-05-28 21:50:14,085 - INFO - genre_Horror 统计:
+2025-05-28 21:50:14,086 - INFO -   非零值数量: 343
+2025-05-28 21:50:14,086 - INFO -   零值数量: 3540
+2025-05-28 21:50:14,086 - INFO - genre_Musical 列没有空值
+2025-05-28 21:50:14,086 - INFO - genre_Musical 统计:
+2025-05-28 21:50:14,086 - INFO -   非零值数量: 114
+2025-05-28 21:50:14,086 - INFO -   零值数量: 3769
+2025-05-28 21:50:14,086 - INFO - genre_Mystery 列没有空值
+2025-05-28 21:50:14,086 - INFO - genre_Mystery 统计:
+2025-05-28 21:50:14,086 - INFO -   非零值数量: 106
+2025-05-28 21:50:14,086 - INFO -   零值数量: 3777
+2025-05-28 21:50:14,086 - INFO - genre_Romance 列没有空值
+2025-05-28 21:50:14,086 - INFO - genre_Romance 统计:
+2025-05-28 21:50:14,086 - INFO -   非零值数量: 471
+2025-05-28 21:50:14,086 - INFO -   零值数量: 3412
+2025-05-28 21:50:14,086 - INFO - genre_Sci-Fi 列没有空值
+2025-05-28 21:50:14,086 - INFO - genre_Sci-Fi 统计:
+2025-05-28 21:50:14,086 - INFO -   非零值数量: 276
+2025-05-28 21:50:14,086 - INFO -   零值数量: 3607
+2025-05-28 21:50:14,086 - INFO - genre_Thriller 列没有空值
+2025-05-28 21:50:14,086 - INFO - genre_Thriller 统计:
+2025-05-28 21:50:14,086 - INFO -   非零值数量: 492
+2025-05-28 21:50:14,086 - INFO -   零值数量: 3391
+2025-05-28 21:50:14,086 - INFO - genre_War 列没有空值
+2025-05-28 21:50:14,086 - INFO - genre_War 统计:
+2025-05-28 21:50:14,087 - INFO -   非零值数量: 143
+2025-05-28 21:50:14,087 - INFO -   零值数量: 3740
+2025-05-28 21:50:14,087 - INFO - genre_Western 列没有空值
+2025-05-28 21:50:14,087 - INFO - genre_Western 统计:
+2025-05-28 21:50:14,087 - INFO -   非零值数量: 68
+2025-05-28 21:50:14,087 - INFO -   零值数量: 3815
+2025-05-28 21:50:14,088 - INFO - 处理后的电影类型数量: 18
+2025-05-28 21:50:14,088 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 21:50:14,088 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ...  genre_War  genre_Western
+0         1                    Toy Story  ...          0              0
+1         2                      Jumanji  ...          0              0
+2         3             Grumpier Old Men  ...          0              0
+3         4            Waiting to Exhale  ...          0              0
+4         5  Father of the Bride Part II  ...          0              0
+
+[5 rows x 21 columns]
+2025-05-28 21:50:14,234 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-28 21:50:14,234 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-28 21:50:14,237 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-28 21:50:14,298 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:50:14,303 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:50:14,389 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:50:14,392 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:50:14,394 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:51:34,376 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-28 21:51:34,389 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 21:51:36,670 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-28 21:51:36,680 - INFO - 发现的所有电影类型: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 21:51:36,692 - INFO - 
+genre特征空值检查:
+2025-05-28 21:51:36,693 - INFO - ==================================================
+2025-05-28 21:51:36,693 - INFO - genre_Action 列没有空值
+2025-05-28 21:51:36,693 - INFO - genre_Action 统计:
+2025-05-28 21:51:36,693 - INFO -   非零值数量: 503
+2025-05-28 21:51:36,693 - INFO -   零值数量: 3380
+2025-05-28 21:51:36,693 - INFO - genre_Adventure 列没有空值
+2025-05-28 21:51:36,693 - INFO - genre_Adventure 统计:
+2025-05-28 21:51:36,693 - INFO -   非零值数量: 283
+2025-05-28 21:51:36,693 - INFO -   零值数量: 3600
+2025-05-28 21:51:36,693 - INFO - genre_Animation 列没有空值
+2025-05-28 21:51:36,693 - INFO - genre_Animation 统计:
+2025-05-28 21:51:36,693 - INFO -   非零值数量: 105
+2025-05-28 21:51:36,693 - INFO -   零值数量: 3778
+2025-05-28 21:51:36,693 - INFO - genre_Children's 列没有空值
+2025-05-28 21:51:36,693 - INFO - genre_Children's 统计:
+2025-05-28 21:51:36,693 - INFO -   非零值数量: 251
+2025-05-28 21:51:36,693 - INFO -   零值数量: 3632
+2025-05-28 21:51:36,694 - INFO - genre_Comedy 列没有空值
+2025-05-28 21:51:36,694 - INFO - genre_Comedy 统计:
+2025-05-28 21:51:36,694 - INFO -   非零值数量: 1200
+2025-05-28 21:51:36,694 - INFO -   零值数量: 2683
+2025-05-28 21:51:36,694 - INFO - genre_Crime 列没有空值
+2025-05-28 21:51:36,694 - INFO - genre_Crime 统计:
+2025-05-28 21:51:36,694 - INFO -   非零值数量: 211
+2025-05-28 21:51:36,694 - INFO -   零值数量: 3672
+2025-05-28 21:51:36,694 - INFO - genre_Documentary 列没有空值
+2025-05-28 21:51:36,694 - INFO - genre_Documentary 统计:
+2025-05-28 21:51:36,694 - INFO -   非零值数量: 127
+2025-05-28 21:51:36,694 - INFO -   零值数量: 3756
+2025-05-28 21:51:36,694 - INFO - genre_Drama 列没有空值
+2025-05-28 21:51:36,694 - INFO - genre_Drama 统计:
+2025-05-28 21:51:36,694 - INFO -   非零值数量: 1603
+2025-05-28 21:51:36,694 - INFO -   零值数量: 2280
+2025-05-28 21:51:36,694 - INFO - genre_Fantasy 列没有空值
+2025-05-28 21:51:36,694 - INFO - genre_Fantasy 统计:
+2025-05-28 21:51:36,694 - INFO -   非零值数量: 68
+2025-05-28 21:51:36,694 - INFO -   零值数量: 3815
+2025-05-28 21:51:36,694 - INFO - genre_Film-Noir 列没有空值
+2025-05-28 21:51:36,694 - INFO - genre_Film-Noir 统计:
+2025-05-28 21:51:36,695 - INFO -   非零值数量: 44
+2025-05-28 21:51:36,695 - INFO -   零值数量: 3839
+2025-05-28 21:51:36,695 - INFO - genre_Horror 列没有空值
+2025-05-28 21:51:36,695 - INFO - genre_Horror 统计:
+2025-05-28 21:51:36,695 - INFO -   非零值数量: 343
+2025-05-28 21:51:36,695 - INFO -   零值数量: 3540
+2025-05-28 21:51:36,695 - INFO - genre_Musical 列没有空值
+2025-05-28 21:51:36,695 - INFO - genre_Musical 统计:
+2025-05-28 21:51:36,695 - INFO -   非零值数量: 114
+2025-05-28 21:51:36,695 - INFO -   零值数量: 3769
+2025-05-28 21:51:36,695 - INFO - genre_Mystery 列没有空值
+2025-05-28 21:51:36,695 - INFO - genre_Mystery 统计:
+2025-05-28 21:51:36,695 - INFO -   非零值数量: 106
+2025-05-28 21:51:36,695 - INFO -   零值数量: 3777
+2025-05-28 21:51:36,695 - INFO - genre_Romance 列没有空值
+2025-05-28 21:51:36,695 - INFO - genre_Romance 统计:
+2025-05-28 21:51:36,695 - INFO -   非零值数量: 471
+2025-05-28 21:51:36,695 - INFO -   零值数量: 3412
+2025-05-28 21:51:36,695 - INFO - genre_Sci-Fi 列没有空值
+2025-05-28 21:51:36,695 - INFO - genre_Sci-Fi 统计:
+2025-05-28 21:51:36,695 - INFO -   非零值数量: 276
+2025-05-28 21:51:36,695 - INFO -   零值数量: 3607
+2025-05-28 21:51:36,695 - INFO - genre_Thriller 列没有空值
+2025-05-28 21:51:36,696 - INFO - genre_Thriller 统计:
+2025-05-28 21:51:36,696 - INFO -   非零值数量: 492
+2025-05-28 21:51:36,696 - INFO -   零值数量: 3391
+2025-05-28 21:51:36,696 - INFO - genre_War 列没有空值
+2025-05-28 21:51:36,696 - INFO - genre_War 统计:
+2025-05-28 21:51:36,696 - INFO -   非零值数量: 143
+2025-05-28 21:51:36,696 - INFO -   零值数量: 3740
+2025-05-28 21:51:36,696 - INFO - genre_Western 列没有空值
+2025-05-28 21:51:36,696 - INFO - genre_Western 统计:
+2025-05-28 21:51:36,696 - INFO -   非零值数量: 68
+2025-05-28 21:51:36,696 - INFO -   零值数量: 3815
+2025-05-28 21:51:36,697 - INFO - 处理后的电影类型数量: 18
+2025-05-28 21:51:36,697 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 21:51:36,698 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ...  genre_War  genre_Western
+0         1                    Toy Story  ...          0              0
+1         2                      Jumanji  ...          0              0
+2         3             Grumpier Old Men  ...          0              0
+3         4            Waiting to Exhale  ...          0              0
+4         5  Father of the Bride Part II  ...          0              0
+
+[5 rows x 21 columns]
+2025-05-28 21:51:36,843 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-28 21:51:36,843 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-28 21:51:36,847 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-28 21:51:36,903 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:51:36,907 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:51:36,991 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:51:36,994 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:51:36,996 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:53:27,722 - INFO - 用户数据前几行：
+   user_id gender  age  occupation    zip
+0        1      F    1          10  48067
+1        2      M   56          16  70072
+2        3      M   25          15  55117
+3        4      M   45           7  02460
+4        5      M   25          20  55455
+2025-05-28 21:53:27,733 - INFO - 电影数据前几行：
+   movie_id                               title                        genres
+0         1                    Toy Story (1995)   Animation|Children's|Comedy
+1         2                      Jumanji (1995)  Adventure|Children's|Fantasy
+2         3             Grumpier Old Men (1995)                Comedy|Romance
+3         4            Waiting to Exhale (1995)                  Comedy|Drama
+4         5  Father of the Bride Part II (1995)                        Comedy
+2025-05-28 21:53:29,916 - INFO - 评分数据前几行：
+   user_id  movie_id  score  timestamp
+0        1      1193      5  978300760
+1        1       661      3  978302109
+2        1       914      3  978301968
+3        1      3408      4  978300275
+4        1      2355      5  978824291
+2025-05-28 21:53:29,925 - INFO - 发现的所有电影类型: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 21:53:29,943 - INFO - 
+genre特征空值检查:
+2025-05-28 21:53:29,943 - INFO - ==================================================
+2025-05-28 21:53:29,943 - INFO - genre_Action 列没有空值
+2025-05-28 21:53:29,943 - INFO - genre_Action 统计:
+2025-05-28 21:53:29,943 - INFO -   非零值数量: 503
+2025-05-28 21:53:29,943 - INFO -   零值数量: 3380
+2025-05-28 21:53:29,943 - INFO - genre_Adventure 列没有空值
+2025-05-28 21:53:29,943 - INFO - genre_Adventure 统计:
+2025-05-28 21:53:29,943 - INFO -   非零值数量: 283
+2025-05-28 21:53:29,943 - INFO -   零值数量: 3600
+2025-05-28 21:53:29,943 - INFO - genre_Animation 列没有空值
+2025-05-28 21:53:29,944 - INFO - genre_Animation 统计:
+2025-05-28 21:53:29,944 - INFO -   非零值数量: 105
+2025-05-28 21:53:29,944 - INFO -   零值数量: 3778
+2025-05-28 21:53:29,944 - INFO - genre_Children's 列没有空值
+2025-05-28 21:53:29,944 - INFO - genre_Children's 统计:
+2025-05-28 21:53:29,944 - INFO -   非零值数量: 251
+2025-05-28 21:53:29,944 - INFO -   零值数量: 3632
+2025-05-28 21:53:29,944 - INFO - genre_Comedy 列没有空值
+2025-05-28 21:53:29,944 - INFO - genre_Comedy 统计:
+2025-05-28 21:53:29,944 - INFO -   非零值数量: 1200
+2025-05-28 21:53:29,944 - INFO -   零值数量: 2683
+2025-05-28 21:53:29,944 - INFO - genre_Crime 列没有空值
+2025-05-28 21:53:29,944 - INFO - genre_Crime 统计:
+2025-05-28 21:53:29,944 - INFO -   非零值数量: 211
+2025-05-28 21:53:29,944 - INFO -   零值数量: 3672
+2025-05-28 21:53:29,944 - INFO - genre_Documentary 列没有空值
+2025-05-28 21:53:29,944 - INFO - genre_Documentary 统计:
+2025-05-28 21:53:29,944 - INFO -   非零值数量: 127
+2025-05-28 21:53:29,944 - INFO -   零值数量: 3756
+2025-05-28 21:53:29,944 - INFO - genre_Drama 列没有空值
+2025-05-28 21:53:29,944 - INFO - genre_Drama 统计:
+2025-05-28 21:53:29,944 - INFO -   非零值数量: 1603
+2025-05-28 21:53:29,944 - INFO -   零值数量: 2280
+2025-05-28 21:53:29,945 - INFO - genre_Fantasy 列没有空值
+2025-05-28 21:53:29,945 - INFO - genre_Fantasy 统计:
+2025-05-28 21:53:29,945 - INFO -   非零值数量: 68
+2025-05-28 21:53:29,945 - INFO -   零值数量: 3815
+2025-05-28 21:53:29,945 - INFO - genre_Film-Noir 列没有空值
+2025-05-28 21:53:29,945 - INFO - genre_Film-Noir 统计:
+2025-05-28 21:53:29,945 - INFO -   非零值数量: 44
+2025-05-28 21:53:29,945 - INFO -   零值数量: 3839
+2025-05-28 21:53:29,945 - INFO - genre_Horror 列没有空值
+2025-05-28 21:53:29,945 - INFO - genre_Horror 统计:
+2025-05-28 21:53:29,945 - INFO -   非零值数量: 343
+2025-05-28 21:53:29,945 - INFO -   零值数量: 3540
+2025-05-28 21:53:29,945 - INFO - genre_Musical 列没有空值
+2025-05-28 21:53:29,945 - INFO - genre_Musical 统计:
+2025-05-28 21:53:29,945 - INFO -   非零值数量: 114
+2025-05-28 21:53:29,945 - INFO -   零值数量: 3769
+2025-05-28 21:53:29,945 - INFO - genre_Mystery 列没有空值
+2025-05-28 21:53:29,945 - INFO - genre_Mystery 统计:
+2025-05-28 21:53:29,945 - INFO -   非零值数量: 106
+2025-05-28 21:53:29,945 - INFO -   零值数量: 3777
+2025-05-28 21:53:29,945 - INFO - genre_Romance 列没有空值
+2025-05-28 21:53:29,945 - INFO - genre_Romance 统计:
+2025-05-28 21:53:29,945 - INFO -   非零值数量: 471
+2025-05-28 21:53:29,945 - INFO -   零值数量: 3412
+2025-05-28 21:53:29,945 - INFO - genre_Sci-Fi 列没有空值
+2025-05-28 21:53:29,946 - INFO - genre_Sci-Fi 统计:
+2025-05-28 21:53:29,946 - INFO -   非零值数量: 276
+2025-05-28 21:53:29,946 - INFO -   零值数量: 3607
+2025-05-28 21:53:29,946 - INFO - genre_Thriller 列没有空值
+2025-05-28 21:53:29,946 - INFO - genre_Thriller 统计:
+2025-05-28 21:53:29,946 - INFO -   非零值数量: 492
+2025-05-28 21:53:29,946 - INFO -   零值数量: 3391
+2025-05-28 21:53:29,946 - INFO - genre_War 列没有空值
+2025-05-28 21:53:29,946 - INFO - genre_War 统计:
+2025-05-28 21:53:29,946 - INFO -   非零值数量: 143
+2025-05-28 21:53:29,946 - INFO -   零值数量: 3740
+2025-05-28 21:53:29,946 - INFO - genre_Western 列没有空值
+2025-05-28 21:53:29,946 - INFO - genre_Western 统计:
+2025-05-28 21:53:29,946 - INFO -   非零值数量: 68
+2025-05-28 21:53:29,946 - INFO -   零值数量: 3815
+2025-05-28 21:53:29,947 - INFO - 处理后的电影类型数量: 18
+2025-05-28 21:53:29,947 - INFO - 电影类型列表: ['Action', 'Adventure', 'Animation', "Children's", 'Comedy', 'Crime', 'Documentary', 'Drama', 'Fantasy', 'Film-Noir', 'Horror', 'Musical', 'Mystery', 'Romance', 'Sci-Fi', 'Thriller', 'War', 'Western']
+2025-05-28 21:53:29,947 - INFO - 处理后的电影数据示例：
+   movie_id                        title  ...  genre_War  genre_Western
+0         1                    Toy Story  ...          0              0
+1         2                      Jumanji  ...          0              0
+2         3             Grumpier Old Men  ...          0              0
+3         4            Waiting to Exhale  ...          0              0
+4         5  Father of the Bride Part II  ...          0              0
+
+[5 rows x 21 columns]
+2025-05-28 21:53:30,099 - INFO - 验证集大小: 2000, 用户数: 2000
+2025-05-28 21:53:30,100 - INFO - 测试集大小: 4040, 用户数: 4040
+2025-05-28 21:53:30,103 - INFO - 训练集大小: 994169, 用户数: 6040
+2025-05-28 21:53:30,160 - INFO - 数据已保存至 ../dataset/processed_df/users.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:53:30,164 - INFO - 数据已保存至 ../dataset/processed_df/movies.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:53:30,252 - INFO - 数据已保存至 ../dataset/processed_df/train.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:53:30,257 - INFO - 数据已保存至 ../dataset/processed_df/validation.parquet (格式: Parquet, 压缩: snappy)
+2025-05-28 21:53:30,259 - INFO - 数据已保存至 ../dataset/processed_df/test.parquet (格式: Parquet, 压缩: snappy)
